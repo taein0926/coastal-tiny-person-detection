@@ -36,6 +36,9 @@ foreach ($item in $images) {
     Add-Record $item[0] $target $item[2] '기존 이미지 복제'
 }
 
+if (-not $ReuseVideos) {
+    & (Join-Path $PSScriptRoot 'compress_readme_videos.ps1') -FFmpeg $FFmpeg
+}
 foreach ($id in @('19953301', '37277130')) {
     $source = 'analysis_results/public_video_comparison/pexels_' + $id + '_두_모델_비교.mp4'
     $target = 'docs/assets/public-models-' + $id + '.mp4'
@@ -46,19 +49,15 @@ foreach ($id in @('19953301', '37277130')) {
         if (-not (Test-Path -LiteralPath $dst) -or -not (Test-Path -LiteralPath (Join-Path $root $poster))) {
             throw '재사용할 영상 또는 미리보기가 없습니다. -ReuseVideos 없이 실행하세요.'
         }
-        $operation = '전체 길이·원래 해상도·프레임률 유지, H.264 CRF 25 재인코딩, 음성 없음'
         Add-Record $source $poster "Pexels $id 비교 영상의 첫 프레임" '영상 첫 프레임 추출'
     } elseif ($FFmpeg) {
-        & $FFmpeg -y -hide_banner -loglevel error -i $src -an -c:v libx264 -preset fast -crf 25 -pix_fmt yuv420p -movflags +faststart $dst
-        if ($LASTEXITCODE -ne 0) { throw "비교 영상 인코딩 실패: $source" }
-        $operation = '전체 길이·원래 해상도·프레임률 유지, H.264 CRF 25 재인코딩, 음성 없음'
         & $FFmpeg -y -hide_banner -loglevel error -i $dst -frames:v 1 -q:v 2 (Join-Path $root $poster)
         if ($LASTEXITCODE -ne 0) { throw "영상 미리보기 추출 실패: $source" }
         Add-Record $source $poster "Pexels $id 비교 영상의 첫 프레임" '영상 첫 프레임 추출'
     } else {
         throw '영상과 미리보기 생성에 FFmpeg가 필요합니다. -FFmpeg로 실행 파일 경로를 지정하세요.'
     }
-    Add-Record $source $target "Pexels $id 공개 모델 비교: 왼쪽 YOLO26m, 오른쪽 SSPNet, 신뢰도 0.25" $operation
+    Add-Record $source $target "Pexels $id 공개 모델 비교: 왼쪽 YOLO26m, 오른쪽 SSPNet, 신뢰도 0.25" '전체 길이·해상도 유지, H.264 2-pass 고정 비트레이트, 15fps, 음성 없음'
 }
 
 $metricFiles = @(

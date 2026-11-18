@@ -75,9 +75,9 @@
     "source": "analysis_results/public_video_comparison/pexels_19953301_두_모델_비교.mp4",
     "output": "docs/assets/public-models-19953301.mp4",
     "description": "Pexels 19953301 공개 모델 비교: 왼쪽 YOLO26m, 오른쪽 SSPNet, 신뢰도 0.25",
-    "operation": "전체 길이·원래 해상도·프레임률 유지, H.264 CRF 25 재인코딩, 음성 없음",
+    "operation": "전체 길이·해상도 유지, H.264 2-pass 고정 비트레이트, 15fps, 음성 없음",
     "source_sha256": "e4c5e61b37f9ac9c1255046c7cfbd35b8b42fd4ad6dfaea73adfb04e814dcc2f",
-    "output_sha256": "884bb113075ebf0a009ee97ca2054dd6f2f3da039471f5f9d343518e1dcf1e0e"
+    "output_sha256": "8e1eaced64bb9101a6b78e735f5819289f7f4d6d4a22ff74bde1caab5be6ba99"
   },
   {
     "source": "analysis_results/public_video_comparison/pexels_37277130_두_모델_비교.mp4",
@@ -91,9 +91,9 @@
     "source": "analysis_results/public_video_comparison/pexels_37277130_두_모델_비교.mp4",
     "output": "docs/assets/public-models-37277130.mp4",
     "description": "Pexels 37277130 공개 모델 비교: 왼쪽 YOLO26m, 오른쪽 SSPNet, 신뢰도 0.25",
-    "operation": "전체 길이·원래 해상도·프레임률 유지, H.264 CRF 25 재인코딩, 음성 없음",
+    "operation": "전체 길이·해상도 유지, H.264 2-pass 고정 비트레이트, 15fps, 음성 없음",
     "source_sha256": "0e20f657be760097b50087980bcd3be09ae02561ab2c84f7d6c59a4b75fdad96",
-    "output_sha256": "2c8d288279ac861cbfeaeb9b075ec15bc448db9aba555cf909b09acb5b1c2344"
+    "output_sha256": "c0b3aa19f4906f7720f16371c2b4f1b3852f9a1940a201a49736439ba5deeb7b"
   },
   {
     "source": "analysis_results/seadronessee_validation/public/full/metrics_full.json",

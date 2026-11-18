@@ -75,6 +75,6 @@ AnnotationPiriapolis의 Compose는 `data/AnnotationPiriapolis.v4i.coco.zip`을 �
 
 ## 미디어와 표의 근거
 
-[결과 파일 안내](results/README.md)에서 각 표의 JSON을 확인할 수 있다. [provenance.json](results/provenance.json)에는 README용 파일의 로컬 원본 경로와 SHA-256을 기록했다. 이미지 원본은 복제했고, 비교 영상은 해상도·길이·프레임률을 유지해 재인코딩했다. 첫 프레임은 영상 링크의 미리보기로 사용했다.
+[결과 파일 안내](results/README.md)에서 각 표의 JSON을 확인할 수 있다. [provenance.json](results/provenance.json)에는 README용 파일의 로컬 원본 경로와 SHA-256을 기록했다. 이미지 원본은 복제했고, 비교 영상은 전체 길이·해상도를 유지하며 15fps H.264로 압축했다. 각 파일은 GitHub 첨부 제한을 고려해 10 MB 미만으로 만들었다. 로컬 원본이 있으면 `scripts/compress_readme_videos.ps1`로 다시 압축할 수 있다.
 
 실험 코드에는 당시의 고정 경로와 장치 설정이 남아 있다. 이 문서는 기존 결과를 추적하기 위한 안내이며 새 환경에서 모든 실험을 재실행해 검증했다는 뜻은 아니다. 원본 데이터·가중치는 각 출처에서 확보해야 한다.
