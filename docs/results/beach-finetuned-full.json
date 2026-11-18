@@ -1,0 +1,67 @@
+{
+  "iou": 0.3,
+  "score_threshold": 0.25,
+  "images": 635,
+  "positives": 8099,
+  "true_positives": 1985,
+  "false_positives": 831,
+  "precision": 0.7049005681818182,
+  "recall": 0.24509198666502038,
+  "false_positives_per_image": 1.3086614173228346,
+  "AP50_saved_predictions_101point": null,
+  "geometric_size_definition": "s=sqrt(width*height), 배포 이미지 픽셀 기준",
+  "geometric_2to20": {
+    "positives": 7893,
+    "hits": 1911,
+    "recall": 0.24211326491828203
+  },
+  "geometric_2to8": {
+    "positives": 1000,
+    "hits": 117,
+    "recall": 0.117
+  },
+  "geometric_size_recall": {
+    "2<=s<8": {
+      "positives": 1000,
+      "hits": 117,
+      "recall": 0.117
+    },
+    "8<=s<12": {
+      "positives": 4203,
+      "hits": 984,
+      "recall": 0.23411848679514632
+    },
+    "12<=s<20": {
+      "positives": 2690,
+      "hits": 810,
+      "recall": 0.30111524163568776
+    }
+  },
+  "tiny_le20": {
+    "positives": 7322,
+    "hits": 1646,
+    "recall": 0.22480196667577165
+  },
+  "size_recall": {
+    "0<d<=8": {
+      "positives": 440,
+      "hits": 26,
+      "recall": 0.05909090909090909
+    },
+    "8<d<=12": {
+      "positives": 3018,
+      "hits": 515,
+      "recall": 0.17064280980781976
+    },
+    "12<d<=20": {
+      "positives": 3864,
+      "hits": 1105,
+      "recall": 0.2859730848861284
+    },
+    "20<d": {
+      "positives": 777,
+      "hits": 339,
+      "recall": 0.4362934362934363
+    }
+  }
+}

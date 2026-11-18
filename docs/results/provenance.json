@@ -1,0 +1,202 @@
+[
+  {
+    "source": "analysis_results/yolo26_seadronessee_1280_gpu/compare_1018_full_and_zoom.jpg",
+    "output": "docs/assets/public-models-overview.jpg",
+    "description": "SeaDronesSee 이미지 1018: 원본 전체 화면과 SSPNet·YOLO26m 확대 비교",
+    "operation": "기존 이미지 복제",
+    "source_sha256": "2faa13e10c341187f18d94a896070486c98cf5fe72a6c7ccd13767c8cc26844b",
+    "output_sha256": "2faa13e10c341187f18d94a896070486c98cf5fe72a6c7ccd13767c8cc26844b"
+  },
+  {
+    "source": "analysis_results/threshold_comparison/comparison_526.jpg",
+    "output": "docs/assets/small-person-thresholds.jpg",
+    "description": "SeaDronesSee 이미지 526: 작은 사람에 대한 두 모델·두 신뢰도 비교",
+    "operation": "기존 이미지 복제",
+    "source_sha256": "6010f528834f95f45c6fb48fb5cf8c4226ca3578f26bde659aa0fee14ca1f875",
+    "output_sha256": "6010f528834f95f45c6fb48fb5cf8c4226ca3578f26bde659aa0fee14ca1f875"
+  },
+  {
+    "source": "analysis_results/annotated_examples/images/piri_604_public_full.png",
+    "output": "docs/assets/beach-public.png",
+    "description": "AnnotationPiriapolis 이미지 604: 공개 SSPNet, 전체 이미지 추론",
+    "operation": "기존 이미지 복제",
+    "source_sha256": "743e8c711808005688dfa82f5b56d7dd4e783e6dd50735bc18a4eafe5d705055",
+    "output_sha256": "743e8c711808005688dfa82f5b56d7dd4e783e6dd50735bc18a4eafe5d705055"
+  },
+  {
+    "source": "analysis_results/annotated_examples/images/piri_604_finetuned_full.png",
+    "output": "docs/assets/beach-finetuned.png",
+    "description": "AnnotationPiriapolis 이미지 604: 5 epoch 추가 학습 SSPNet, 전체 이미지 추론",
+    "operation": "기존 이미지 복제",
+    "source_sha256": "f48aee1ae97f355ca4588abf3e842d94fbc49aec917ef7df208037a8cf346fe8",
+    "output_sha256": "f48aee1ae97f355ca4588abf3e842d94fbc49aec917ef7df208037a8cf346fe8"
+  },
+  {
+    "source": "analysis_results/annotated_examples/images/piri_604_public_zoom.png",
+    "output": "docs/assets/beach-public-zoom.png",
+    "description": "AnnotationPiriapolis 이미지 604: 공개 SSPNet 확대",
+    "operation": "기존 이미지 복제",
+    "source_sha256": "9e114ee3969c3a118e52422b6e132ef6d36e9c4f3e06b88adebdabc83b0c9056",
+    "output_sha256": "9e114ee3969c3a118e52422b6e132ef6d36e9c4f3e06b88adebdabc83b0c9056"
+  },
+  {
+    "source": "analysis_results/annotated_examples/images/piri_604_finetuned_zoom.png",
+    "output": "docs/assets/beach-finetuned-zoom.png",
+    "description": "AnnotationPiriapolis 이미지 604: 추가 학습 SSPNet 확대",
+    "operation": "기존 이미지 복제",
+    "source_sha256": "124151683d924b7dde5d4696aa7ae9425d649c812858a52d22a15574c3fc1d73",
+    "output_sha256": "124151683d924b7dde5d4696aa7ae9425d649c812858a52d22a15574c3fc1d73"
+  },
+  {
+    "source": "analysis_results/annotated_examples/images/sea_1018_public_zoom.png",
+    "output": "docs/assets/external-public.png",
+    "description": "SeaDronesSee 이미지 1018: 공개 SSPNet 확대",
+    "operation": "기존 이미지 복제",
+    "source_sha256": "8f019d114bef31280d5c5816d2c60e7e0715bd559144965ebfcfce5f80315d3d",
+    "output_sha256": "8f019d114bef31280d5c5816d2c60e7e0715bd559144965ebfcfce5f80315d3d"
+  },
+  {
+    "source": "analysis_results/annotated_examples/images/sea_1018_finetuned_zoom.png",
+    "output": "docs/assets/external-finetuned.png",
+    "description": "SeaDronesSee 이미지 1018: 5 epoch 추가 학습 SSPNet 확대",
+    "operation": "기존 이미지 복제",
+    "source_sha256": "48d1ae0350b1ce7ee287425d54f5bfbff3dc280bf8aac2e9f44f6f674387566d",
+    "output_sha256": "48d1ae0350b1ce7ee287425d54f5bfbff3dc280bf8aac2e9f44f6f674387566d"
+  },
+  {
+    "source": "analysis_results/public_video_comparison/pexels_19953301_두_모델_비교.mp4",
+    "output": "docs/assets/public-models-19953301-poster.jpg",
+    "description": "Pexels 19953301 비교 영상의 첫 프레임",
+    "operation": "영상 첫 프레임 추출",
+    "source_sha256": "e4c5e61b37f9ac9c1255046c7cfbd35b8b42fd4ad6dfaea73adfb04e814dcc2f",
+    "output_sha256": "0376854e7d6a3a7f386e6675344afe105c38fb7c6d53084f31d399e03c2b08c6"
+  },
+  {
+    "source": "analysis_results/public_video_comparison/pexels_19953301_두_모델_비교.mp4",
+    "output": "docs/assets/public-models-19953301.mp4",
+    "description": "Pexels 19953301 공개 모델 비교: 왼쪽 YOLO26m, 오른쪽 SSPNet, 신뢰도 0.25",
+    "operation": "전체 길이·원래 해상도·프레임률 유지, H.264 CRF 25 재인코딩, 음성 없음",
+    "source_sha256": "e4c5e61b37f9ac9c1255046c7cfbd35b8b42fd4ad6dfaea73adfb04e814dcc2f",
+    "output_sha256": "884bb113075ebf0a009ee97ca2054dd6f2f3da039471f5f9d343518e1dcf1e0e"
+  },
+  {
+    "source": "analysis_results/public_video_comparison/pexels_37277130_두_모델_비교.mp4",
+    "output": "docs/assets/public-models-37277130-poster.jpg",
+    "description": "Pexels 37277130 비교 영상의 첫 프레임",
+    "operation": "영상 첫 프레임 추출",
+    "source_sha256": "0e20f657be760097b50087980bcd3be09ae02561ab2c84f7d6c59a4b75fdad96",
+    "output_sha256": "f67d8724f186b4c8050ebb9b0fa1ad3e3ef4c28bbdbd5b446a98ea736ced88b9"
+  },
+  {
+    "source": "analysis_results/public_video_comparison/pexels_37277130_두_모델_비교.mp4",
+    "output": "docs/assets/public-models-37277130.mp4",
+    "description": "Pexels 37277130 공개 모델 비교: 왼쪽 YOLO26m, 오른쪽 SSPNet, 신뢰도 0.25",
+    "operation": "전체 길이·원래 해상도·프레임률 유지, H.264 CRF 25 재인코딩, 음성 없음",
+    "source_sha256": "0e20f657be760097b50087980bcd3be09ae02561ab2c84f7d6c59a4b75fdad96",
+    "output_sha256": "2c8d288279ac861cbfeaeb9b075ec15bc448db9aba555cf909b09acb5b1c2344"
+  },
+  {
+    "source": "analysis_results/seadronessee_validation/public/full/metrics_full.json",
+    "output": "docs/results/sea-public-025.json",
+    "description": "저장된 평가 지표",
+    "operation": "기존 JSON 복제",
+    "source_sha256": "4742ab904d8c59b0d30641b716eb9b8bb0220cb2acba060f9e3d6c5247aaaea6",
+    "output_sha256": "4742ab904d8c59b0d30641b716eb9b8bb0220cb2acba060f9e3d6c5247aaaea6"
+  },
+  {
+    "source": "analysis_results/seadronessee_validation/public/full/metrics_score_005.json",
+    "output": "docs/results/sea-public-005.json",
+    "description": "저장된 평가 지표",
+    "operation": "기존 JSON 복제",
+    "source_sha256": "ebad2bf10d6245453e5d3d46e88b8814966920cfa072d1f71c83a2e8a9b9d04c",
+    "output_sha256": "ebad2bf10d6245453e5d3d46e88b8814966920cfa072d1f71c83a2e8a9b9d04c"
+  },
+  {
+    "source": "analysis_results/seadronessee_validation/finetuned/full/metrics_full.json",
+    "output": "docs/results/sea-finetuned-025.json",
+    "description": "저장된 평가 지표",
+    "operation": "기존 JSON 복제",
+    "source_sha256": "cd623c169e1ce21ff56683c2c2a88e6413241853c0ba3160b5ffa398ec7a20bf",
+    "output_sha256": "cd623c169e1ce21ff56683c2c2a88e6413241853c0ba3160b5ffa398ec7a20bf"
+  },
+  {
+    "source": "analysis_results/yolo26_seadronessee_1280_gpu/metrics.json",
+    "output": "docs/results/sea-yolo26m-025.json",
+    "description": "저장된 평가 지표",
+    "operation": "기존 JSON 복제",
+    "source_sha256": "248c1b495140b19e2aef078c44e74225dc97e879fda078e1397c6cd2ef7a65ca",
+    "output_sha256": "248c1b495140b19e2aef078c44e74225dc97e879fda078e1397c6cd2ef7a65ca"
+  },
+  {
+    "source": "analysis_results/yolo26_seadronessee_1280_gpu_005/metrics.json",
+    "output": "docs/results/sea-yolo26m-005.json",
+    "description": "저장된 평가 지표",
+    "operation": "기존 JSON 복제",
+    "source_sha256": "e609cb6913f18e79d2906c18be369b19c64be99ee2457ea88a78585d0a0ea53a",
+    "output_sha256": "e609cb6913f18e79d2906c18be369b19c64be99ee2457ea88a78585d0a0ea53a"
+  },
+  {
+    "source": "analysis_results/tiles_comparison_20261111/full_all_people.json",
+    "output": "docs/results/beach-public-full.json",
+    "description": "저장된 평가 지표",
+    "operation": "기존 JSON 복제",
+    "source_sha256": "b6de45ad82d7808e4bb9cfbc4c46b08f607eac51a4343b48fa143e30b6abde3c",
+    "output_sha256": "b6de45ad82d7808e4bb9cfbc4c46b08f607eac51a4343b48fa143e30b6abde3c"
+  },
+  {
+    "source": "analysis_results/tiles_comparison_20261111/tiles_all_people.json",
+    "output": "docs/results/beach-public-tiles.json",
+    "description": "저장된 평가 지표",
+    "operation": "기존 JSON 복제",
+    "source_sha256": "9a22c7a53be038ba6c4aa9109ba3ced6321e53fcea152e28b1943047307e3f96",
+    "output_sha256": "9a22c7a53be038ba6c4aa9109ba3ced6321e53fcea152e28b1943047307e3f96"
+  },
+  {
+    "source": "analysis_results/local_gpu_smoke/evaluation_full_all/result.json",
+    "output": "docs/results/beach-finetuned-full.json",
+    "description": "AnnotationPiriapolis 추가 학습 모델의 전체 사람 평가",
+    "operation": "result.json의 all_people 추출",
+    "source_sha256": "83db2f1598de76c42699cfecaadacffbcf09bb1588980ef93297157e877a207a",
+    "output_sha256": "e5f3c44ae8b3160fb5572f1a119974e97e82b5779a09c8c844c5111a5632a084"
+  },
+  {
+    "source": "analysis_results/local_gpu_smoke/evaluation_tiles_all/result.json",
+    "output": "docs/results/beach-finetuned-tiles.json",
+    "description": "AnnotationPiriapolis 추가 학습 모델의 전체 사람 평가",
+    "operation": "result.json의 all_people 추출",
+    "source_sha256": "7c6101486b66b1a7e1999fec66223d3f68752501df846e146a8eef9b880406ff",
+    "output_sha256": "a4f45812bbfa5d77e55bb8266ae772502c007850724b2405d2896b9b855b0e15"
+  },
+  {
+    "source": "analysis_results/tiles_comparison_20261111/full_water_only.json",
+    "output": "docs/results/beach-water-only.json",
+    "description": "물속 사람 보조 평가: public_full",
+    "operation": "기존 집계 네 조합을 병합, result.json에서는 water_only 추출",
+    "source_sha256": "108047ca7f602a62458d69226343e8994bc695f9fe5926df0117f87cc19011d5",
+    "output_sha256": "0f6951596a8fd3c0f7da0e3ace5c6cb7116ca5bbd1ea44e68f98dd8e43556248"
+  },
+  {
+    "source": "analysis_results/tiles_comparison_20261111/tiles_water_only.json",
+    "output": "docs/results/beach-water-only.json",
+    "description": "물속 사람 보조 평가: public_tiles",
+    "operation": "기존 집계 네 조합을 병합, result.json에서는 water_only 추출",
+    "source_sha256": "1f233e565def7dc9558787b6ebf75ab9e59e44239b2f4bf3902d41d9803d2252",
+    "output_sha256": "0f6951596a8fd3c0f7da0e3ace5c6cb7116ca5bbd1ea44e68f98dd8e43556248"
+  },
+  {
+    "source": "analysis_results/local_gpu_smoke/evaluation_full_all/result.json",
+    "output": "docs/results/beach-water-only.json",
+    "description": "물속 사람 보조 평가: finetuned_full",
+    "operation": "기존 집계 네 조합을 병합, result.json에서는 water_only 추출",
+    "source_sha256": "83db2f1598de76c42699cfecaadacffbcf09bb1588980ef93297157e877a207a",
+    "output_sha256": "0f6951596a8fd3c0f7da0e3ace5c6cb7116ca5bbd1ea44e68f98dd8e43556248"
+  },
+  {
+    "source": "analysis_results/local_gpu_smoke/evaluation_tiles_all/result.json",
+    "output": "docs/results/beach-water-only.json",
+    "description": "물속 사람 보조 평가: finetuned_tiles",
+    "operation": "기존 집계 네 조합을 병합, result.json에서는 water_only 추출",
+    "source_sha256": "7c6101486b66b1a7e1999fec66223d3f68752501df846e146a8eef9b880406ff",
+    "output_sha256": "0f6951596a8fd3c0f7da0e3ace5c6cb7116ca5bbd1ea44e68f98dd8e43556248"
+  }
+]

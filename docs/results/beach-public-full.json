@@ -1,0 +1,92 @@
+{
+  "images": 635,
+  "positives": 8099,
+  "true_positives": 1765,
+  "false_positives": 14163,
+  "false_negatives": 6334,
+  "precision": 0.11081115017579106,
+  "recall": 0.21792813927645388,
+  "false_positives_per_image": 22.303937007874016,
+  "geometric_2to20": {
+    "positives": 7893,
+    "hits": 1674,
+    "recall": 0.2120866590649943
+  },
+  "geometric_2to8": {
+    "positives": 1000,
+    "hits": 97,
+    "recall": 0.097
+  },
+  "score_threshold": 0.25,
+  "iou": 0.3,
+  "geometric_size_definition": "s=sqrt(width*height), 배포 이미지 픽셀 기준",
+  "by_split": {
+    "test": {
+      "images": 33,
+      "positives": 530,
+      "true_positives": 158,
+      "false_positives": 92,
+      "false_negatives": 372,
+      "precision": 0.632,
+      "recall": 0.2981132075471698,
+      "false_positives_per_image": 2.787878787878788,
+      "geometric_2to20": {
+        "positives": 524,
+        "hits": 153,
+        "recall": 0.2919847328244275
+      },
+      "geometric_2to8": {
+        "positives": 140,
+        "hits": 19,
+        "recall": 0.1357142857142857
+      }
+    },
+    "train": {
+      "images": 537,
+      "positives": 6524,
+      "true_positives": 1256,
+      "false_positives": 13842,
+      "false_negatives": 5268,
+      "precision": 0.08318982646708173,
+      "recall": 0.19251992642550583,
+      "false_positives_per_image": 25.776536312849164,
+      "geometric_2to20": {
+        "positives": 6340,
+        "hits": 1183,
+        "recall": 0.18659305993690853
+      },
+      "geometric_2to8": {
+        "positives": 695,
+        "hits": 58,
+        "recall": 0.08345323741007195
+      }
+    },
+    "valid": {
+      "images": 65,
+      "positives": 1045,
+      "true_positives": 351,
+      "false_positives": 229,
+      "false_negatives": 694,
+      "precision": 0.6051724137931035,
+      "recall": 0.33588516746411484,
+      "false_positives_per_image": 3.523076923076923,
+      "geometric_2to20": {
+        "positives": 1029,
+        "hits": 338,
+        "recall": 0.32847424684159376
+      },
+      "geometric_2to8": {
+        "positives": 165,
+        "hits": 20,
+        "recall": 0.12121212121212122
+      }
+    }
+  },
+  "target_classes": [
+    "person water",
+    "person sand"
+  ],
+  "scope_label": "전체 사람",
+  "partial": false,
+  "available_image_count": 635
+}

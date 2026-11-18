@@ -1,0 +1,318 @@
+{
+  "public_full": {
+    "images": 635,
+    "positives": 2904,
+    "true_positives": 992,
+    "false_positives": 14936,
+    "false_negatives": 1912,
+    "precision": 0.0622802611752888,
+    "recall": 0.3415977961432507,
+    "false_positives_per_image": 23.521259842519687,
+    "geometric_2to20": {
+      "positives": 2823,
+      "hits": 950,
+      "recall": 0.3365214311016649
+    },
+    "geometric_2to8": {
+      "positives": 263,
+      "hits": 64,
+      "recall": 0.24334600760456274
+    },
+    "score_threshold": 0.25,
+    "iou": 0.3,
+    "geometric_size_definition": "s=sqrt(width*height), 배포 이미지 픽셀 기준",
+    "by_split": {
+      "test": {
+        "images": 33,
+        "positives": 160,
+        "true_positives": 91,
+        "false_positives": 159,
+        "false_negatives": 69,
+        "precision": 0.364,
+        "recall": 0.56875,
+        "false_positives_per_image": 4.818181818181818,
+        "geometric_2to20": {
+          "positives": 159,
+          "hits": 90,
+          "recall": 0.5660377358490566
+        },
+        "geometric_2to8": {
+          "positives": 33,
+          "hits": 15,
+          "recall": 0.45454545454545453
+        }
+      },
+      "train": {
+        "images": 537,
+        "positives": 2403,
+        "true_positives": 737,
+        "false_positives": 14361,
+        "false_negatives": 1666,
+        "precision": 0.04881441250496755,
+        "recall": 0.30669995838535163,
+        "false_positives_per_image": 26.743016759776538,
+        "geometric_2to20": {
+          "positives": 2326,
+          "hits": 697,
+          "recall": 0.2996560619088564
+        },
+        "geometric_2to8": {
+          "positives": 170,
+          "hits": 36,
+          "recall": 0.21176470588235294
+        }
+      },
+      "valid": {
+        "images": 65,
+        "positives": 341,
+        "true_positives": 164,
+        "false_positives": 416,
+        "false_negatives": 177,
+        "precision": 0.2827586206896552,
+        "recall": 0.4809384164222874,
+        "false_positives_per_image": 6.4,
+        "geometric_2to20": {
+          "positives": 338,
+          "hits": 163,
+          "recall": 0.4822485207100592
+        },
+        "geometric_2to8": {
+          "positives": 60,
+          "hits": 13,
+          "recall": 0.21666666666666667
+        }
+      }
+    },
+    "target_classes": [
+      "person water"
+    ],
+    "scope_label": "물속 사람",
+    "partial": false,
+    "available_image_count": 635
+  },
+  "public_tiles": {
+    "images": 635,
+    "positives": 2904,
+    "true_positives": 1023,
+    "false_positives": 34938,
+    "false_negatives": 1881,
+    "precision": 0.028447484775173105,
+    "recall": 0.3522727272727273,
+    "false_positives_per_image": 55.02047244094488,
+    "geometric_2to20": {
+      "positives": 2823,
+      "hits": 976,
+      "recall": 0.3457314913212894
+    },
+    "geometric_2to8": {
+      "positives": 263,
+      "hits": 66,
+      "recall": 0.2509505703422053
+    },
+    "score_threshold": 0.25,
+    "iou": 0.3,
+    "geometric_size_definition": "s=sqrt(width*height), 배포 이미지 픽셀 기준",
+    "by_split": {
+      "test": {
+        "images": 33,
+        "positives": 160,
+        "true_positives": 77,
+        "false_positives": 182,
+        "false_negatives": 83,
+        "precision": 0.2972972972972973,
+        "recall": 0.48125,
+        "false_positives_per_image": 5.515151515151516,
+        "geometric_2to20": {
+          "positives": 159,
+          "hits": 76,
+          "recall": 0.4779874213836478
+        },
+        "geometric_2to8": {
+          "positives": 33,
+          "hits": 11,
+          "recall": 0.3333333333333333
+        }
+      },
+      "train": {
+        "images": 537,
+        "positives": 2403,
+        "true_positives": 784,
+        "false_positives": 34245,
+        "false_negatives": 1619,
+        "precision": 0.022381455365554255,
+        "recall": 0.3262588431127757,
+        "false_positives_per_image": 63.770949720670394,
+        "geometric_2to20": {
+          "positives": 2326,
+          "hits": 739,
+          "recall": 0.3177128116938951
+        },
+        "geometric_2to8": {
+          "positives": 170,
+          "hits": 41,
+          "recall": 0.2411764705882353
+        }
+      },
+      "valid": {
+        "images": 65,
+        "positives": 341,
+        "true_positives": 162,
+        "false_positives": 511,
+        "false_negatives": 179,
+        "precision": 0.24071322436849926,
+        "recall": 0.4750733137829912,
+        "false_positives_per_image": 7.861538461538461,
+        "geometric_2to20": {
+          "positives": 338,
+          "hits": 161,
+          "recall": 0.47633136094674555
+        },
+        "geometric_2to8": {
+          "positives": 60,
+          "hits": 14,
+          "recall": 0.23333333333333334
+        }
+      }
+    },
+    "target_classes": [
+      "person water"
+    ],
+    "scope_label": "물속 사람",
+    "partial": false,
+    "available_image_count": 635
+  },
+  "finetuned_full": {
+    "iou": 0.3,
+    "score_threshold": 0.25,
+    "images": 635,
+    "positives": 2904,
+    "true_positives": 1085,
+    "false_positives": 1731,
+    "precision": 0.38529829545454547,
+    "recall": 0.3736225895316804,
+    "false_positives_per_image": 2.725984251968504,
+    "AP50_saved_predictions_101point": null,
+    "geometric_size_definition": "s=sqrt(width*height), 배포 이미지 픽셀 기준",
+    "geometric_2to20": {
+      "positives": 2823,
+      "hits": 1043,
+      "recall": 0.36946510804109106
+    },
+    "geometric_2to8": {
+      "positives": 263,
+      "hits": 67,
+      "recall": 0.25475285171102663
+    },
+    "geometric_size_recall": {
+      "2<=s<8": {
+        "positives": 263,
+        "hits": 67,
+        "recall": 0.25475285171102663
+      },
+      "8<=s<12": {
+        "positives": 1468,
+        "hits": 513,
+        "recall": 0.34945504087193463
+      },
+      "12<=s<20": {
+        "positives": 1092,
+        "hits": 463,
+        "recall": 0.423992673992674
+      }
+    },
+    "tiny_le20": {
+      "positives": 2548,
+      "hits": 868,
+      "recall": 0.34065934065934067
+    },
+    "size_recall": {
+      "0<d<=8": {
+        "positives": 99,
+        "hits": 15,
+        "recall": 0.15151515151515152
+      },
+      "8<d<=12": {
+        "positives": 977,
+        "hits": 263,
+        "recall": 0.2691914022517912
+      },
+      "12<d<=20": {
+        "positives": 1472,
+        "hits": 590,
+        "recall": 0.4008152173913043
+      },
+      "20<d": {
+        "positives": 356,
+        "hits": 217,
+        "recall": 0.6095505617977528
+      }
+    }
+  },
+  "finetuned_tiles": {
+    "iou": 0.3,
+    "score_threshold": 0.25,
+    "images": 635,
+    "positives": 2904,
+    "true_positives": 1284,
+    "false_positives": 4450,
+    "precision": 0.22392745029647715,
+    "recall": 0.44214876033057854,
+    "false_positives_per_image": 7.0078740157480315,
+    "AP50_saved_predictions_101point": null,
+    "geometric_size_definition": "s=sqrt(width*height), 배포 이미지 픽셀 기준",
+    "geometric_2to20": {
+      "positives": 2823,
+      "hits": 1269,
+      "recall": 0.4495217853347503
+    },
+    "geometric_2to8": {
+      "positives": 263,
+      "hits": 120,
+      "recall": 0.45627376425855515
+    },
+    "geometric_size_recall": {
+      "2<=s<8": {
+        "positives": 263,
+        "hits": 120,
+        "recall": 0.45627376425855515
+      },
+      "8<=s<12": {
+        "positives": 1468,
+        "hits": 722,
+        "recall": 0.49182561307901906
+      },
+      "12<=s<20": {
+        "positives": 1092,
+        "hits": 427,
+        "recall": 0.391025641025641
+      }
+    },
+    "tiny_le20": {
+      "positives": 2548,
+      "hits": 1127,
+      "recall": 0.4423076923076923
+    },
+    "size_recall": {
+      "0<d<=8": {
+        "positives": 99,
+        "hits": 33,
+        "recall": 0.3333333333333333
+      },
+      "8<d<=12": {
+        "positives": 977,
+        "hits": 433,
+        "recall": 0.44319344933469806
+      },
+      "12<d<=20": {
+        "positives": 1472,
+        "hits": 661,
+        "recall": 0.44904891304347827
+      },
+      "20<d": {
+        "positives": 356,
+        "hits": 157,
+        "recall": 0.4410112359550562
+      }
+    }
+  }
+}

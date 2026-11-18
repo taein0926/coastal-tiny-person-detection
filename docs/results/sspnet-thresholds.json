@@ -1,0 +1,78 @@
+{
+  "description": "저장된 공개 SSPNet 전체 이미지 예측의 신뢰도별 재채점",
+  "sources": [
+    {
+      "path": "analysis_results/seadronessee_validation/ground_truth_swimmer.json",
+      "sha256": "8e63ca526f267a66f2101eaf80e0ef15b201817cd46ebf50588c14a1df03d0cc"
+    },
+    {
+      "path": "analysis_results/seadronessee_validation/public/full/predictions_full.json",
+      "sha256": "36dc43467eb9ffbbe734eb3d73d0bc381c6f958a84961d26625bbb2236f537c1"
+    },
+    {
+      "path": "sspnet_colab/metrics.py",
+      "sha256": "6d9611af628637e1903f89e2bde710dfdfe04f5124024cd5a648bd366bbda5b7"
+    },
+    {
+      "path": "scripts/summarize_sspnet_thresholds.py",
+      "sha256": "df6749f1281a268625da7055f816d21078a5eae31fd4634155a460a4430a0246"
+    }
+  ],
+  "rows": [
+    {
+      "score_threshold": 0.25,
+      "iou": 0.3,
+      "images": 1547,
+      "positives": 6206,
+      "true_positives": 4839,
+      "false_positives": 5980,
+      "precision": 0.447268693964322,
+      "recall": 0.7797292942313889,
+      "false_positives_per_image": 3.865546218487395
+    },
+    {
+      "score_threshold": 0.2,
+      "iou": 0.3,
+      "images": 1547,
+      "positives": 6206,
+      "true_positives": 5007,
+      "false_positives": 8644,
+      "precision": 0.36678631602080436,
+      "recall": 0.8067998710924912,
+      "false_positives_per_image": 5.5875888817065285
+    },
+    {
+      "score_threshold": 0.15,
+      "iou": 0.3,
+      "images": 1547,
+      "positives": 6206,
+      "true_positives": 5195,
+      "false_positives": 12504,
+      "precision": 0.2935194078761512,
+      "recall": 0.8370931356751531,
+      "false_positives_per_image": 8.082740788623141
+    },
+    {
+      "score_threshold": 0.1,
+      "iou": 0.3,
+      "images": 1547,
+      "positives": 6206,
+      "true_positives": 5386,
+      "false_positives": 17933,
+      "precision": 0.23097045327844248,
+      "recall": 0.867869803416049,
+      "false_positives_per_image": 11.592113768584356
+    },
+    {
+      "score_threshold": 0.05,
+      "iou": 0.3,
+      "images": 1547,
+      "positives": 6206,
+      "true_positives": 5601,
+      "false_positives": 31246,
+      "precision": 0.15200694764838385,
+      "recall": 0.9025136964228166,
+      "false_positives_per_image": 20.197802197802197
+    }
+  ]
+}
