@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.pth
+*.pt
+data/
+/results/
+analysis_results/seadronessee_validation_audit/_deps/
+
+# 로컬 원본·가중치·설치 환경과 내부 작업 기록
+.sspnet_source/
+analysis_results/
+docs/handoffs/
+docs/archive/
+notebooks/backups/
+.env
+.env.*
+!.env.example
+*.onnx
+*.zip
+*.pkl
+*.log
