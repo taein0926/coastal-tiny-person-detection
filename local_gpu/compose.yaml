@@ -1,0 +1,16 @@
+services:
+  evaluate:
+    build: .
+    gpus: all
+    working_dir: /workspace
+    volumes:
+      - ../.sspnet_source:/workspace/SSPNet:ro
+      - ../sspnet_colab:/workspace/helpers:ro
+      - ../scripts:/workspace/scripts:ro
+      - ../analysis_results/local_gpu_smoke:/workspace/output
+      - ../data/weights/epoch_5.pth:/workspace/epoch_5.pth:ro
+      - ${ANNOTATION_PIRIAPOLIS_ZIP:-../data/AnnotationPiriapolis.v4i.coco.zip}:/workspace/dataset.zip:ro
+    environment:
+      PYTHONPATH: /workspace/SSPNet:/workspace/helpers
+      MPLBACKEND: Agg
+    command: python /workspace/scripts/evaluate_piriapolis.py --mode full --limit 0

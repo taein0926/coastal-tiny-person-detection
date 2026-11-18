@@ -1,0 +1,16 @@
+services:
+  compare:
+    image: local_gpu-evaluate:latest
+    gpus: all
+    working_dir: /workspace
+    volumes:
+      - ../.sspnet_source:/workspace/SSPNet:ro
+      - ../sspnet_colab:/workspace/helpers:ro
+      - ../scripts:/workspace/scripts:ro
+      - ../data/weights:/workspace/weights:ro
+      - ../data/videos:/workspace/videos:ro
+      - ../analysis_results/public_video_comparison:/workspace/output
+    environment:
+      PYTHONPATH: /workspace/SSPNet:/workspace/helpers
+      PYTHONUNBUFFERED: '1'
+    command: python /workspace/scripts/compare_public_video_ssp.py

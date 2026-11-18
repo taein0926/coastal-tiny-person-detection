@@ -1,0 +1,20 @@
+services:
+  evaluate:
+    image: local_gpu-evaluate:latest
+    gpus: all
+    working_dir: /workspace
+    volumes:
+      - ../.sspnet_source:/workspace/SSPNet:ro
+      - ../sspnet_colab:/workspace/helpers:ro
+      - ../scripts:/workspace/scripts:ro
+      - ../tests:/workspace/tests:ro
+      - ../data/seadronessee_odv2:/workspace/data:ro
+      - ../data/weights:/workspace/weights:ro
+      - ../data/weights/epoch_5.pth:/workspace/epoch_5.pth:ro
+      - ../analysis_results/seadronessee_validation:/workspace/output
+    environment:
+      PYTHONPATH: /workspace/SSPNet:/workspace/helpers
+      MPLBACKEND: Agg
+      PYTHONUNBUFFERED: '1'
+      SSPNET_SOURCE_COMMIT: f2d0f42273945577a5c6497fd2b384cb545f8f66
+    command: python /workspace/scripts/evaluate_seadronessee.py
