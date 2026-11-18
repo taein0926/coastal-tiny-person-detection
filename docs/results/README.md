@@ -39,6 +39,7 @@
 - `small-person-thresholds.jpg`: 기존 SeaDronesSee 이미지 526의 두 모델·신뢰도 비교 시각화.
 - `beach-*`: SSPNet 테스트 문서에 사용한 AnnotationPiriapolis 이미지 604의 공개·추가 학습 예측.
 - `external-*`: 같은 문서에 사용한 SeaDronesSee 이미지 1018의 공개·추가 학습 예측.
-- `public-models-19953301.mp4`, `public-models-37277130.mp4`: 관련 로컬 공개 모델 비교 영상. 문서에 업로드할 때 붙인 영상 파일명과 로컬 파일명은 다를 수 있으며 업로드본과의 바이너리 동일성은 확인하지 않았다.
+- `public-models-19953301.mp4`, `public-models-37277130.mp4`: 관련 로컬 공개 모델 비교 영상. 전체 길이·해상도를 유지하며 15fps H.264로 압축했고, 각 파일은 10 MB 미만이다. 참고 문서에 업로드했던 파일과의 바이너리 동일성은 확인하지 않았다.
+- [video-attachments.json](../assets/video-attachments.json): README 플레이어에 사용하는 GitHub 첨부 주소, 압축 설정, 파일 크기와 SHA-256. 첨부 주소를 단독 줄에 배치하며, 저장소의 MP4 링크도 함께 제공한다.
 
 예시 영상은 왼쪽 YOLO26m, 오른쪽 SSPNet이며 모두 신뢰도 0.25다. 표의 정량 평가 집합과 영상 예시는 별개다. 이미지·영상의 저작권과 이용 조건은 원본 데이터·영상 출처에 따른다.

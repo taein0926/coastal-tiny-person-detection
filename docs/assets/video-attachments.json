@@ -1,0 +1,24 @@
+[
+  {
+    "id": "19953301",
+    "source": "analysis_results/public_video_comparison/pexels_19953301_두_모델_비교.mp4",
+    "output": "docs/assets/public-models-19953301.mp4",
+    "bytes": 8825979,
+    "fps": 15,
+    "bitrate": "1500k",
+    "sha256": "8e1eaced64bb9101a6b78e735f5819289f7f4d6d4a22ff74bde1caab5be6ba99",
+    "operation": "전체 길이·해상도 유지, H.264 2-pass 고정 비트레이트, 15fps, 음성 없음",
+    "github_attachment_url": "https://github.com/user-attachments/assets/9afb7fad-d178-4aba-97e4-b564d44fe145"
+  },
+  {
+    "id": "37277130",
+    "source": "analysis_results/public_video_comparison/pexels_37277130_두_모델_비교.mp4",
+    "output": "docs/assets/public-models-37277130.mp4",
+    "bytes": 8699208,
+    "fps": 15,
+    "bitrate": "2600k",
+    "sha256": "c0b3aa19f4906f7720f16371c2b4f1b3852f9a1940a201a49736439ba5deeb7b",
+    "operation": "전체 길이·해상도 유지, H.264 2-pass 고정 비트레이트, 15fps, 음성 없음",
+    "github_attachment_url": "https://github.com/user-attachments/assets/ca291822-0cd8-4e30-9b0f-1c5e03329ceb"
+  }
+]

@@ -154,12 +154,19 @@ SeaDronesSee의 저장된 공개 SSPNet 예측을 신뢰도별로 재채점했�
 
 ## 비교 영상
 
-로컬에서 제작한 공개 모델 비교 영상이다. **왼쪽은 YOLO26m, 오른쪽은 SSPNet**, 두 모델 모두 신뢰도 0.25다. 아래 미리보기를 누르면 전체 영상 파일을 열 수 있다.
+로컬에서 제작한 공개 모델 비교 영상이다. **왼쪽은 YOLO26m, 오른쪽은 SSPNet**, 두 모델 모두 신뢰도 0.25다. GitHub README의 플레이어에서 바로 재생할 수 있다. 전체 길이·해상도를 유지하며 15fps H.264로 압축했다.
 
-| 해변 공개 영상 1 | 해변 공개 영상 2 |
-|---|---|
-| [![두 공개 모델 영상 1 미리보기](docs/assets/public-models-19953301-poster.jpg)](docs/assets/public-models-19953301.mp4) | [![두 공개 모델 영상 2 미리보기](docs/assets/public-models-37277130-poster.jpg)](docs/assets/public-models-37277130.mp4) |
-| [전체 비교 영상](docs/assets/public-models-19953301.mp4) · Pexels 19953301 | [전체 비교 영상](docs/assets/public-models-37277130.mp4) · Pexels 37277130 |
+### 해변 공개 영상 1
+
+https://github.com/user-attachments/assets/9afb7fad-d178-4aba-97e4-b564d44fe145
+
+[영상 파일](docs/assets/public-models-19953301.mp4) · Pexels 19953301 · 약 47초 · 8.83 MB
+
+### 해변 공개 영상 2
+
+https://github.com/user-attachments/assets/ca291822-0cd8-4e30-9b0f-1c5e03329ceb
+
+[영상 파일](docs/assets/public-models-37277130.mp4) · Pexels 37277130 · 약 27초 · 8.70 MB
 
 영상은 실제 장면의 탐지 양상을 확인하는 정성적 자료다. 위 정량 성능표는 SeaDronesSee·AnnotationPiriapolis의 주석으로 계산했으며 영상 전체의 정답 기반 성능을 뜻하지 않는다. 두 참고 문서에서 다룬 실험을 중심으로 이미지와 관련 비교 영상을 모았다.
 
